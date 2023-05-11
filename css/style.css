@@ -1,0 +1,49 @@
+
+
+nav * {
+  display: inline-flex;
+}
+
+ul li {
+  width: 200px;
+  height: 70px;
+  justify-content: space-evenly;
+}
+
+main section img {
+  gap: 30px;
+  gap: 30px;
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+div{
+  display: inline-flex;
+}
+
+article {
+  flex-direction: column;
+}
+
+/* scrollable container */
+p {
+  width: 450px;
+  height: 300px;
+  overflow: auto;
+}
+
+
+/* HOVER AND TRANSITION */
+button:hover{
+  background-color: limegreen;
+}
+
+button {
+  transition: 350ms;
+}
+
+
+footer {
+  height: 150px;
+  background-color: #444;
+}
